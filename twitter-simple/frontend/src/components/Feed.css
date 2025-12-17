@@ -1,0 +1,19 @@
+.feed {
+  flex: 1;
+  border-right: 1px solid #eff3f4;
+  min-height: 100vh;
+}
+
+.feed-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 16px;
+  border-bottom: 1px solid #eff3f4;
+  z-index: 10;
+}
+
+.feed-header h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
