@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Technology Trends 2025",
+      "description": "Latest technology trends you should know in 2025.",
+      "date": "2025-12-23T08:07:52.526Z",
+      "category": "Tech",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800"
+    },
+    {
+      "id": 2,
+      "title": "React Best Practices",
+      "description": "Clean and scalable React project structure.",
+      "date": "2025-12-23T08:07:54.445Z",
+      "category": "Tech",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800"
+    },
+    {
+      "id": 3,
+      "title": "Web Development Guide",
+      "description": "Complete roadmap to become a web developer.",
+      "date": "2025-12-23T08:10:39.962Z",
+      "category": "Tech",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+    },
+    {
+      "id": 4,
+      "title": "Frontend Interview Tips",
+      "description": "Important interview questions for frontend developers.",
+      "date": "2025-12-23T08:12:00.025Z",
+      "category": "Tech",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+    },
+    {
+      "id": "2c47",
+      "title": "Trading",
+      "description": "very risky ",
+      "date": "2025-12-23T08:21:05.461Z",
+      "category": "Tech",
+      "image": "https://via.placeholder.com/300"
+    }
+  ]
+}

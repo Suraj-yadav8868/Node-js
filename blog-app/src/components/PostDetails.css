@@ -1,0 +1,65 @@
+.post-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+}
+
+/* Card hover */
+.post-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.post-card img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Content */
+.post-card-body {
+  padding: 15px;
+}
+
+.post-card-body h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2a5298;
+}
+
+.post-card-body p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Delete Button */
+.post-card-body button {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.post-card-body button:hover {
+  background-color: #b02a37;
+}
+.post-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.post-card img {
+  height: 200px;
+  object-fit: cover;
+}
+

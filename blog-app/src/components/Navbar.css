@@ -1,0 +1,41 @@
+nav {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 14px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+nav a:hover {
+  background-color: #ffffff;
+  color: #2a5298;
+  transform: translateY(-2px);
+}
+
+/* Active Link Look (optional) */
+nav a.active {
+  background-color: #ffffff;
+  color: #1e3c72;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
