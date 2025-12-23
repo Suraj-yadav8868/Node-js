@@ -37,38 +37,9 @@ Backend (Mock): JSON Server
 
 Build Tool: Vite / Create React App
 
-📂 Project Structure
-blog-app/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── PostList.jsx
-│   │   ├── PostDetails.jsx
-│   │   ├── PostForm.jsx
-│   │   └── PrivateRoute.jsx
-│   │
-│   ├── pages/
-│   │   └── Login.jsx
-│   │
-│   ├── redux/
-│   │   ├── actions/
-│   │   │   ├── postActions.js
-│   │   │   └── authActions.js
-│   │   ├── reducers/
-│   │   │   ├── postReducer.js
-│   │   │   └── authReducer.js
-│   │   └── store.js
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── db.json
-├── package.json
-└── README.md
+#Video
+https://drive.google.com/file/d/1RZOPEvml2mG-J8WF9OZy26YOKLhq6rBj/view?usp=sharing
+
 
 🔧 Installation & Setup
 1️⃣ Clone the repository
