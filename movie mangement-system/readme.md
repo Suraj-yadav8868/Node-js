@@ -144,17 +144,7 @@ npm install
 npm run dev
 
 
----
 
-## 👨‍💻 Developer
-
-Name: Nikunj Rana
-
-Role: MERN Stack Developer
-
-GitHub: nikunj1112
-
-----
 
 
 
