@@ -1,0 +1,163 @@
+/* ===============================
+   GLOBAL RESET
+=============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* ===============================
+   BODY BACKGROUND IMAGE
+=============================== */
+.firstpage {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(18, 18, 28, 0.65),
+      rgba(18, 18, 28, 0.9)
+    ),
+    url("https://www.thenews.com.pk/assets/uploads/updates/2022-09-18/992487_438237_i_updates.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ===============================
+   HERO SECTION
+=============================== */
+.hero {
+  min-height: 80vh;
+  background: transparent;
+  color: #e6e9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #cdd2ff;
+  opacity: 0.95;
+}
+
+/* ===============================
+   BUTTON
+=============================== */
+.btn {
+  padding: 14px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(
+    to right,
+    #5865f2,
+    #7b83ff
+  );
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(88, 101, 242, 0.6);
+}
+
+/* ===============================
+   FEATURES SECTION
+=============================== */
+.features {
+  background: rgba(18, 18, 28, 0.95);
+  padding: 80px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* ===============================
+   FEATURE CARD
+=============================== */
+.card {
+  background: linear-gradient(
+    135deg,
+    #2b2f55,
+    #1a1c35
+  );
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  color: #e6e9ff;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(123, 131, 255, 0.25);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #cdd2ff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+  border-color: #7b83ff;
+}
+
+/* ===============================
+   FOOTER
+=============================== */
+.footer {
+  background: #1a1c35;
+  color: #cdd2ff;
+  text-align: center;
+  padding: 18px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  border-top: 1px solid rgba(123, 131, 255, 0.25);
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+=============================== */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .features {
+    padding: 50px 20px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+}
